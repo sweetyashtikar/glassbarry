@@ -1,0 +1,59 @@
+/* OffersSection.css */
+.offers-section {
+    padding: 20px;
+    text-align: center;
+    margin: 0px 50px;
+  }
+
+  .offers-section h2{
+    text-align: left;
+  }
+  
+  .offers-container {
+    display: flex;
+    gap: 10px; /* Adjust gap as needed */
+    overflow-x: auto; /* Enable horizontal scroll on smaller screens */
+  }
+  
+  .offer-card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    overflow: hidden;
+    min-width: 100px; /* Adjust width as needed */
+    height: 130px; /* Adjust height as needed */
+    flex-shrink: 0; /* Prevent shrinking */
+  }
+  
+  .offer-content {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+  
+  .offer-image img {
+    height: 100%;
+    width: 100px;
+    object-fit: cover;
+  }
+
+  .scroll-button.left {
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  
+  .scroll-button.right {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    top: 130%;
+    margin-right: 20px;
+  }
+  

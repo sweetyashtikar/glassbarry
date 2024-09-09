@@ -1,0 +1,20 @@
+/* Layout.css */
+.layout {
+    display: grid;
+    grid-template-columns: 250px 1fr 400px; /* Sidebar, Results, Map */
+    gap: 0; /* No gap between the sections */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  @media (max-width: 768px) {
+    .layout {
+      grid-template-columns: 1fr; /* Stack on smaller screens */
+      grid-template-rows: auto 1fr auto; /* Sidebar on top, Map on bottom */
+    }
+  
+    .map {
+      grid-row: 3; /* Move the map to the bottom */
+      height: 50vh; /* Adjust height for smaller viewports */
+    }
+  }
+  

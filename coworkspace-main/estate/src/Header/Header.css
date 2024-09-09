@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .header__logo img {
+    height: 40px; /* Adjust as needed */
+  }
+  
+  .header__search input {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .header__actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header__requirement, .header__login {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .header__login {
+    background-color: #1a1aff;
+    color: white;
+  }
+  

@@ -1,0 +1,34 @@
+/* Sidebar.css */
+.sidebar {
+    background-color: #f9f9f9; /* Light background for the sidebar */
+    padding: 20px;
+    border-right: 1px solid #ddd; /* Divider line between sidebar and results */
+    height: 100vh; /* Full height */
+    overflow-y: auto; /* Scrollable if content overflows */
+    position: sticky; /* Sticks to the viewport on scroll */
+    top: 0;
+  }
+  
+  .sidebar h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .sidebar p {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #555;
+  }
+  
+  .sidebar label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .sidebar input {
+    margin-right: 8px;
+  }
+  

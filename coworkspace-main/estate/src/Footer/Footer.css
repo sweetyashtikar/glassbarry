@@ -1,0 +1,40 @@
+.footer{
+    background-color: #e7ebed;
+    margin: 40px;
+
+}
+.foot{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    gap: 90px;
+}
+.foot1 img{
+    width: 80px;
+}
+.foot1 h2{
+    font-size: 20px;
+    color: rgb(30, 34, 170);
+}
+.foot1 input{
+    padding: 10px;
+    margin: 10px 5px;
+}
+.button{
+    background-color: #54638c;
+    color: aliceblue;
+    border: none;
+}
+.touch{
+    margin: 10px 80px;
+}
+.touch img{
+   margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+.foot1 a{
+    margin: 20px 0px;
+    text-decoration: none;
+}
